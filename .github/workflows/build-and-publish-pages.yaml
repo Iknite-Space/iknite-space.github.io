@@ -67,8 +67,7 @@ jobs:
         working-directory: ./src
         run: |
           npm install
-          n
-            npm install --no-audit --no-fund --prefer-offlinepm run build
+          npm run build
       - name: Cache Save
         id: cache-save
         uses: actions/cache/save@v4
@@ -79,7 +78,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./src/public
+          path: ./public
 
   # Deployment job
   deploy:
