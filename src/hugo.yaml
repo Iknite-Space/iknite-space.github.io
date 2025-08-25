@@ -22,7 +22,7 @@ params:
   description: "Get intensive practical training in software development for free until you get a job"
   disable_theme_toggle: false
   disable_stay_uptodate: true
-  homepageImage: "images/pages/home-1.png"
+  homepageImage: "./images/pages/homepage-1.png"
 
   p1:
     heading: "How it Works"
