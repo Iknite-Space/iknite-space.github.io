@@ -38,6 +38,7 @@ Attending the first of it's kind; the West/Central Africa Gophers Meetup, organi
 [View More](https://www.facebook.com/iknitestudios/posts/pfbid0eVqn5g9j28Dnp1WUaNUzN95ADwfwTSv5httwR4vzrUfNgbUL7KNBVs8gKqxG9j2nl?rdid=Re1OluRP0xAkI2aI)
 
 
+### Design Meetup
 ![design meetup](design.jpg)
 April 26th ended with the trainees adding one more skill to their already existing technical skill....Design. 
 
@@ -45,4 +46,51 @@ After attending Design Meetup V8, they were able to recreate a motion design sug
 
 Check out snippets of their images below!
 
-#### [View More](https://drive.google.com/file/d/1xaBfNlbPHZX-FaldtpVaFdDzzsL7qpVR/view?usp=sharing)
+#### [View More](https://drive.google.com/file/d/1xaBfNlbPHZX-FaldtpVaFdDzzsL7qpVR/view?usp=sharing)o
+
+## Course Update
+
+![courses](courses.png)
+
+
+### Recent Uploads
+Three months into the training and the C/4 trainees have already begun working on their projects (as teams).
+
+This recent development was after completing over twenty (20) courses on Moodle; Moodle is a Learning Management system that helps for course uploads, management and evaluation. (It certainly does more, but we are so far using it for the above).
+
+courses covered so far in no particular order include;
+
+* Setting up your Ubuntu laptop
+* Intro to Moodle
+* Installing Ubuntu
+* Setting up your GitHub Account
+* Intro to JavaScript
+* Introduction to Go
+
+#### Intro to APIs
+
+Courses trainees are currently covering;
+* Domain Driven Design
+* Introduction to React
+* Introduction to NPM
+* Relational Databases
+* CI/CD with GitHub Actions
+
+## Presentations
+	
+### Session with Program lead; Ryan Yoder
+
+![group presentation with Ryan](ryan.jpg)
+
+Learning is one thing, learning through practice is another. It hits differently.
+
+For this edition of the newsletter, the trainees have received over four presentations from their mentors and Program Lead, covering topics already available on Moodle.
+
+These presentations give trainees the opportunity to ask questions and get clarifications on problems faced while going through a course or working on personal/team projects. 
+
+
+--------
+
+Thanks for reading! Reply any time with feedback or questions.
+
+N:B, Subsequent issues will carry case studies of the trainees. One issue at a time.
