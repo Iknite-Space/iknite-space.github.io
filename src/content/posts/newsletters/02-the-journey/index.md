@@ -1,5 +1,5 @@
 +++
-date = '2025-08-26T21:37:45+01:00'
+date = '2025-07-26T21:37:45+01:00'
 draft = false
 title = 'The Journey'
 language =  "en"
