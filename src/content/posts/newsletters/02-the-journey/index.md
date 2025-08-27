@@ -84,7 +84,7 @@ It is the third phase of C4 training program and as planned, the trainees are ex
 
 Team Qless figured it will be great to live in a society where time as a valued asset is used wisely, by deciding to work on a project that helps business and their users manage their time preciously.
 
-The name of the application is Qless, and it is supposed to help users book their services conveniently, and also allow businesses to register their services so that users can view and book accordingly. [Visit the Qless web app](https://queueless.xyz) today to streamline your service experience. For the tech community who would like to have a snapshot of our code, you can [visit our Github repo here](https://github.com/Iknite-Space/queueless)
+The name of the application is Qless, and it is supposed to help users book their services conveniently, and also allow businesses to register their services so that users can view and book accordingly. [Visit the Qless web app](https://queueless.xyz) today to streamline your service experience. For developers who would like to have a snapshot of their code, you can [visit Qless Github repo here](https://github.com/Iknite-Space/queueless)
 
 
 ------------
