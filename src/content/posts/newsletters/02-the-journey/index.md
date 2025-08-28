@@ -79,7 +79,7 @@ She is fierce, resilient, strong and we are definitely excited for what to see h
 --------------
 
 # Project Highlight -  Qless
-![The Qless team](./qless.jpg)
+![The Qless team](./team-QLess.jpg)
 It is the third phase of C4 training program and as planned, the trainees are expected to design apps solving some basic day - to - day problems.
 
 Team Qless figured it will be great to live in a society where time as a valued asset is used wisely, by deciding to work on a project that helps business and their users manage their time preciously.
