@@ -76,9 +76,11 @@ We saw her when she first walked through our doors four months later, we clearly
 
 She is fierce, resilient, strong and we are definitely excited for what to see how far she can go.
 
+Here is the link to her github profile page: https://github.com/AMPAM-Estella
+
 --------------
 
-# Project Highlight -  Qless
+# Project Highlight -  Qlesss
 ![The Qless team](./qless.jpg)
 It is the third phase of C4 training program and as planned, the trainees are expected to design apps solving some basic day - to - day problems.
 
