@@ -76,6 +76,8 @@ We saw her when she first walked through our doors four months later, we clearly
 
 She is fierce, resilient, strong and we are definitely excited for what to see how far she can go.
 
+Here is the link to her github profile page: https://github.com/AMPAM-Estella
+
 --------------
 
 # Project Highlight -  Qless
