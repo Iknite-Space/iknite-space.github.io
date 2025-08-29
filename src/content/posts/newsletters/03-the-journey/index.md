@@ -93,7 +93,7 @@ She is fierce, resilient, strong and we are definitely excited for what to see w
 
 
 # Project Highlight - Team CribConnect
-![cribconnect](cribconnect.jpg)
+![cribconnect](team-cribconnect.jpeg)
 Team CribConnect, originally known as Roommate Finder figured finding and pairing with roommates does not have to be so complex. Hence, crib connect connects persons looking to pair/find a roommate based on similar preference.
 
 Checkout their work Here
