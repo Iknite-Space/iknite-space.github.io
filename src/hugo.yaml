@@ -1,7 +1,7 @@
 baseURL: 'https://iknite-space.github.io'
 title: "Iknite Space"
 languageCode: en-us
-theme: 'github.com/nusserstudios/tailbliss'
+theme: 'github.com/nusserstudios/tailbliss/themes/tailbliss'
 DefaultContentLanguage: en
 enableEmoji: true
 enableGitInfo: true
@@ -197,7 +197,7 @@ module:
     extended: true
     min: "0.104.0"
   imports:
-    - path: github.com/nusserstudios/tailbliss
+    - path: github.com/nusserstudios/tailbliss/themes/tailbliss
       mounts:
         - source: layouts
           target: layouts
