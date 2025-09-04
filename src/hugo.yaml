@@ -22,23 +22,24 @@ params:
   description: "Get intensive practical training in software development for free until you get a job"
   disable_theme_toggle: false
   disable_stay_uptodate: true
-  homepageImage: "./images/pages/homepage-1.png"
+  homepageImage: "images/hero.png"
+  howitworksImage: "/images/isocons.png"
 
   p1:
     heading: "How it Works"
     image: "images/pages/home-2.png"
     content:
-      - text: "Five straightforward steps to achieve your goal. Your future employer handles your tuition fees"
+      # - text: "Five straightforward steps to achieve your goal. Your future employer handles your tuition fees"
       - text: "1. Apply - Complete our competitive application process- selective but refreshingly straightforward"
-      - text: "2. Complete course - Complete the course we will assign to you in time and a bit more text here"
+      - text: "2. Complete course - Complete the course we will assign to you in time"
       - text: "3. Interview - Pass the in-person interview We'll see if we're the right fit for each other."
       - text: "4. Training - Complete 6 months of intensive training. You'll master essential skills and tackle real-world projects."
       - text: "5. Internship - Complete 6 months of our internship – a hands-on experience that will bridge the gap between learning and professional mastery."
   p2:
-    heading: "Just in time for Hacktoberfest with JIT Tailwind."
-    image: "images/pages/hacktoberfest.jpg"
+    heading: "Limited spaces available!"
+    # image: "images/pages/hacktoberfest.jpg"
     content:
-      - text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at purus non enim commodo tincidunt vel in nulla. Aenean pretium dolor non ultricies bibendum. Etiam quis blandit enim. Nunc condimentum ut lorem in faucibus. Phasellus varius ligula et commodo tristique. Nunc sodales nisl nec laoreet vehicula. Donec velit nibh, sollicitudin at nulla a, egestas dignissim eros. Sed lacinia hendrerit interdum. Vestibulum pellentesque sem venenatis nisl tempor accumsan sit amet tempus felis. Mauris leo diam, porttitor nec bibendum id, tempus ac nulla. Etiam congue ornare erat at convallis. Donec in nisi dapibus, mattis risus vel, imperdiet enim. Donec fermentum sit amet tortor nec tincidunt. Nam nec lectus tortor. Nunc sit amet laoreet orci, porta ornare massa. Phasellus eget lorem mi. Nam eleifend ultricies sapien, quis mollis leo bibendum at. Quisque viverra lorem sit amet magna aliquet, et dignissim arcu eleifend."
+      - text: "New batch intake happens only after 6 months"
   p3:
     heading: "Backed by world-renowned investors"
     content:
@@ -55,6 +56,49 @@ params:
       - identifier: d
       - identifier: e
       - identifier: f
+  #mentors
+  mentors:
+     - name: "Acho Arnold Ewin"
+       company: "Microsoft"
+       experience: "10 Years, Full Stack Developer, 
+        Backend with GO, C#, PHP and Typescript, 
+        Vue.Js, ReactJs for the frontend."
+       image: "images/mentor-dps/acho-arnold.png"
+  
+     - name: "Ian Joyce"
+       company: "The Honest Company"
+       experience: "15 years working with data"
+       image: "/images/mentor-dps/ian-joyce.png"
+
+     - name: "Margaret Adams"
+       company: "Airship"
+       experience: "10 years of experience as a Frontend engineer"
+       image: "/images/mentor-dps/margaret-adams.png"
+
+     - name: "Mbianou Bradon"
+       company: "Zotech Design"
+       experience: "Head of Engineering, Full stack Engineer/n 
+        (Web,  Mobile and desktop applications) 
+        with 3+ years of experience."
+       image: "/images/mentor-dps/mbianou-bradon.png"
+
+     - name: "Phillip Kang"
+       company: "Duro Labs"
+       experience: "Backend and DevOps engineering, 
+        13 years of experience"
+       image: "/images/mentor-dps/phillip-kang.png"
+
+     - name: "Eric Williams"
+       company: ""
+       experience: "9 years of experience and have worked in many fields including /n full stack work and application security"
+       image: "/images/mentor-dps/nodp.png"
+
+     - name: "Kambang Sinclaire"
+       company: " CTO of Fluide Technologies, Founder of Kingssoftwares"
+       experience: " 7+ years of proven expertise in designing and building state-of-the-art, resilient, scalable, and high-performing software systems"
+       image: "/images/mentor-dps/nodp.png"
+       
+  
   p4:
     heading: "From the blog"
     content:
@@ -71,84 +115,89 @@ params:
   social_media:
     github:
       enabled: true
-      url: 'https://github.com/nusserstudios'
+      url: 'https://github.com/Iknite-Space'
     facebook:
       enabled: true
-      url: 'https://facebook.com/nusserstudios'
+      url: 'https://www.facebook.com/iknite.space/'
     instagram:
       enabled: true
-      url: 'https://instagram.com/nusserstudios'
+      url: 'https://instagram.com/iknitespace/'
     twitter:
-      enabled: true
+      enabled: false
       url: '@nusserstudios'
 
 menu:
   main:
     - identifier: apply
-      name: Appply Now
+      name: Apply Now
       url: /apply/
       weight: 10
     - identifier: about
       name: About
       url: /about/
       weight: 20
-    - identifier: categories
-      pre: dropdown
-      name: Categories
-      weight: 30
-    - identifier: dropdown
-      pre: complexdropdown
-      name: Dropdown
-      weight: 40
+    # - identifier: categories
+    #   pre: dropdown
+    #   name: Categories
+    #   weight: 30
+
+    # - identifier: dropdown
+    #   pre: complexdropdown
+    #   name: Dropdown
+    #   weight: 40
     - identifier: contact
       name: Contact
       url: /contact/
       weight: 50
-  categories:
-    - identifier: prose
-      name: Prose
-      url: /prose/
-      weight: 10
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 20
-  dropdown:
-    - identifier: appearance
-      pre: stars # can be stars, comments or piechart
-      name: Appearance
-      post: "Easy customization"
-      url: "#"
-      weight: 10
-    - identifier: comments
-      pre: comments # can be stars, comments or piechart
-      name: Comments
-      post: "Check your latest comments"
-      url: "#"
-      weight: 20
-    - identifier: analytics
-      pre: piechart # can be stars, comments or piechart
-      name: Analytics
-      post: "Take a look at your statistics"
-      url: "#"
-      weight: 30
+  # categories:
+  #   - identifier: prose
+  #     name: Prose
+  #     url: /prose/
+  #     weight: 10
+  #   - identifier: about
+  #     name: About
+  #     url: /about/
+  #     weight: 20
+
+  # dropdown:
+  #   - identifier: appearance
+  #     pre: stars # can be stars, comments or piechart
+  #     name: Appearance
+  #     post: "Easy customization"
+  #     url: "#"
+  #     weight: 10
+  #   - identifier: comments
+  #     pre: comments # can be stars, comments or piechart
+  #     name: Comments
+  #     post: "Check your latest comments"
+  #     url: "#"
+  #     weight: 20
+  #   - identifier: analytics
+  #     pre: piechart # can be stars, comments or piechart
+  #     name: Analytics
+  #     post: "Take a look at your statistics"
+  #     url: "#"
+  #     weight: 30
   footer:
     - identifier: about
       name: About
       url: /about/
       weight: 10
+
     - identifier: blog
       name: Blog
       url: /categories/blog/
       weight: 20
-    - identifier: news
-      name: News
-      url: /categories/news/
-      weight: 30
-    - identifier: prose
-      name: Prose
-      url: /prose/
-      weight: 40
+
+    # - identifier: news
+    #   name: News
+    #   url: /categories/news/
+    #   weight: 30
+
+    # - identifier: prose
+    #   name: Prose
+    #   url: /prose/
+    #   weight: 40
     - identifier: contact
       name: Contact
       url: /contact/
