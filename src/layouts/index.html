@@ -1,7 +1,7 @@
 {{ define "main" }}
 <main>
     <div class="bg-gray-200 dark:bg-gray-900">
-        <div class="max-w-screen-xl px-4 py-8 mx-auto">
+        <div class="max-w-screen-xl px-8 py-12 mx-auto">
             <div class="grid items-center gap-8 mb-8 sm:mb-0 lg:gap-12 lg:grid-cols-12">
                 <div class="col-span-6 px-4 text-center sm:mb-6 lg:text-left lg:mb-0">
                     <h1 class="mb-2 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl xl:text-6xl dark:text-white">
@@ -17,9 +17,9 @@
                     
                 </div>
                 <div class="col-span-6">
-                    <!-- {{ $hero := resources.GetMatch .Site.Params.homepageImage }}
+                    {{ $hero := resources.GetMatch .Site.Params.homepageImage }}
                     {{ $thumb := ($hero.Fill "400x400 webp q90") }}
-                    {{ $large := ($hero.Fill "576x576 webp q90") }} -->
+                    {{ $large := ($hero.Fill "576x576 webp q90") }}
                     {{ $hero := resources.Get .Site.Params.homepageImage }}
                     {{ if $hero }}
                         {{ $thumb := ($hero.Resize "400x webp q90") }}
@@ -38,17 +38,17 @@
     <!-- More main page content here... -->
 
     <!-- Our mission section -->
-    <div class="relative my-4">
+    <div class="relative my-4 px-8 py-12">
         <div class="grid items-center gap-8 mb-8 sm:mb-0 lg:gap-12 lg:grid-cols-12">
            <div class="col-span-6">
                     <!-- {{ $hero := resources.GetMatch .Site.Params.homepageImage }}
                     {{ $thumb := ($hero.Fill "400x400 webp q90") }}
                     {{ $large := ($hero.Fill "576x576 webp q90") }} -->
-                    {{ $hero := resources.Get .Site.Params.howitworksImage }}
-                    {{ if $hero }}
-                        {{ $thumb := ($hero.Resize "400x webp q90") }}
-                        {{ $large := ($hero.Resize "576x webp q90") }}
-                        <img src="{{ $thumb.RelPermalink }}" srcset="{{ $thumb.RelPermalink }} 400w, {{ $large.RelPermalink }} 576w" sizes="(max-width: 576px) 100vw, 576px" alt="Spacegirl">
+                    {{ $works := resources.Get .Site.Params.howitworksImage }}
+                    {{ if $works }}
+                        {{ $thumb := ($works.Resize "400x webp q90") }}
+                        {{ $large := ($works.Resize "576x webp q90") }}
+                        <img src="{{ $thumb.RelPermalink }}" srcset="{{ $thumb.RelPermalink }} 400w, {{ $large.RelPermalink }} 576w" sizes="(max-width: 576px) 100vw, 576px" alt="how_it_works_image">
                     {{ end }} 
 
                     <!-- <img srcset="
@@ -153,27 +153,26 @@
     <!-- mentors section -->
     
     <div class="bg-gray-900 min-h-screen py-16 px-4 sm:px-6 lg:px-8">
-    <div class="max-w-7xl mx-auto px-16 py-16">
+    <div class="max-w-7xl mx-auto">
         {{/* Grid Container */}}
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-        {{/* Assuming you have a collection of profiles in a .yaml data file or similar */}}
+        <div class="place-content-center grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         {{ $profiles := .Site.Params.Mentors }}
 
         {{ range $profiles }}
             {{/* Profile Card */}}
-            <div class="flex flex-col items-center">
+            <div class=" max-w-[300px] flex items-start text-center">
             {{/* Profile Image Container */}}
-                <div class="relative max-w-[300px] mb-4">
-                    <div class="w-full overflow-hidden border-4 border-purple-500/50">
-                        <img src="{{ .image }}" alt="{{ .name }}" class="w-full h-auto max-h-[300px] object-cover">
-                    </div>
+                <div class="relative w-full mb-4">
+                    <!-- <div class="w-full h-full overflow-hidden"> -->
+                        <img src="{{ .image }}" alt="{{ .name }}" class="object-cover">
+                    <!-- </div> -->
                 </div>
 
                 {{/* Profile Details */}}
-                <div class="flex text-center flex-col flex-wrap">
-                    <div><h3 class="text-xl font-medium text-white mb-1">{{ .name }}</h3></div>
-                    <div><p class="text-gray-400 text-sm italic">{{ .company }}</p></div>
-                    <div><p class="text-gray-400 text-xs">{{ .experience }}</p></div>
+                <div class="col-span-4 w-full flex flex-col flex-wrap text-left">
+                    <h3 class="text-wrap text-xl font-medium text-white mb-1">{{ .name }}</h3>
+                    <p class="text-wrap text-gray-400 text-sm italic">{{ .company }}</p>
+                    <p class="text-wrap text-gray-400 text-xs">{{ .experience }}</p>
                     
                 </div>
             </div>

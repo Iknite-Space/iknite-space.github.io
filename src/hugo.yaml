@@ -23,7 +23,7 @@ params:
   disable_theme_toggle: false
   disable_stay_uptodate: true
   homepageImage: "images/hero.png"
-  howitworksImage: "/images/apply.png"
+  howitworksImage: "/images/isocons.png"
 
   p1:
     heading: "How it Works"
@@ -77,7 +77,7 @@ params:
 
      - name: "Mbianou Bradon"
        company: "Zotech Design"
-       experience: "Head of Engineering, Full stack Engineer 
+       experience: "Head of Engineering, Full stack Engineer/n 
         (Web,  Mobile and desktop applications) 
         with 3+ years of experience."
        image: "/images/mentor-dps/mbianou-bradon.png"
