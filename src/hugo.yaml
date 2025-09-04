@@ -63,7 +63,7 @@ params:
        experience: "10 Years, Full Stack Developer, 
         Backend with GO, C#, PHP and Typescript, 
         Vue.Js, ReactJs for the frontend."
-       image: "/images/mentor-dps/acho-arnold.png"
+       image: "images/mentor-dps/acho-arnold.png"
   
      - name: "Ian Joyce"
        company: "The Honest Company"

@@ -17,19 +17,12 @@
                     
                 </div>
                 <div class="col-span-6">
-                    {{ $hero := resources.GetMatch .Site.Params.homepageImage }}
-                    {{ $thumb := ($hero.Fill "400x400 webp q90") }}
-                    {{ $large := ($hero.Fill "576x576 webp q90") }}
                     {{ $hero := resources.Get .Site.Params.homepageImage }}
                     {{ if $hero }}
                         {{ $thumb := ($hero.Resize "400x webp q90") }}
                         {{ $large := ($hero.Resize "576x webp q90") }}
                         <img src="{{ $thumb.RelPermalink }}" srcset="{{ $thumb.RelPermalink }} 400w, {{ $large.RelPermalink }} 576w" sizes="(max-width: 576px) 100vw, 576px" alt="Hero Image">
                     {{ end }} 
-
-                    <!-- <img srcset="
-                        {{- with $thumb.RelPermalink -}}{{.}} 400w{{- end -}}
-                        {{- with $large.RelPermalink -}}, {{.}} 576w{{- end -}}" src="{{ $hero.RelPermalink }}" width="100%" height="" alt="TailBliss Hero" class="w-full max-w-xl mx-auto rounded-lg" /> -->
                 </div>
             </div>
         </div>
@@ -163,11 +156,12 @@
             <div class=" max-w-[300px] flex items-start text-center">
             {{/* Profile Image Container */}}
                 <div class="relative w-full mb-4">
-                    <!-- <div class="w-full h-full overflow-hidden"> -->
-                        <img src="{{ .image }}" alt="{{ .name }}" class="object-cover">
-                    <!-- </div> -->
+                        {{ $photo := resources.Get .image }}
+                        {{ if $hero }}
+                        {{ $thumb := ($photo.Resize "400x webp q90") }}
+                            <img src="{{ $thumb.RelPermalink }}" alt="{{ .name }}" class="object-cover">
+                        {{ end }} 
                 </div>
-
                 {{/* Profile Details */}}
                 <div class="col-span-4 w-full flex flex-col flex-wrap text-left">
                     <h3 class="text-wrap text-xl font-medium text-white mb-1">{{ .name }}</h3>
