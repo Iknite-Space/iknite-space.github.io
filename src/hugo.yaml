@@ -18,7 +18,7 @@ params:
   author: Nusser Studios
   authorimage: ../assets/images/global/author.webp
   og_image: /images/tailbliss-cover.png
-  moto: "Kickstart your  dev/design career"
+  moto: "Kickstart your software dev career"
   description: "Get intensive practical training in software development for free until you get a job"
   disable_theme_toggle: false
   disable_stay_uptodate: true
@@ -30,32 +30,35 @@ params:
     image: "images/pages/home-2.png"
     content:
       # - text: "Five straightforward steps to achieve your goal. Your future employer handles your tuition fees"
-      - text: "1. Apply - Complete our competitive application process- selective but refreshingly straightforward"
-      - text: "2. Complete course - Complete the course we will assign to you in time"
-      - text: "3. Interview - Pass the in-person interview We'll see if we're the right fit for each other."
-      - text: "4. Training - Complete 6 months of intensive training. You'll master essential skills and tackle real-world projects."
-      - text: "5. Internship - Complete 6 months of our internship – a hands-on experience that will bridge the gap between learning and professional mastery."
+      - text: "1. Apply - Submit your application—it’s selective but refreshingly straightforward. No hoops, just clarity"
+      - text: "2. Prep and Learning - Dive into your first course. We’ll assign it—just focus on mastering the basics at your own pace"
+      - text: "3. Let's Chat - We’ll invite you to a laid-back, in-person interview. Think of it as a two-way check: you and we both seeing if this is the right fit"
+      - text: "4. Training - Join us for an immersive, 6-month coding adventure. You'll learn real skills, build real projects, and collaborate like a pro."
+      - text: "5. Internship - Graduate into a 6-month industry-ready internship—a hands-on bridge from learning to doing. Real-world work, real impact."
   p2:
     heading: "Limited spaces available!"
     # image: "images/pages/hacktoberfest.jpg"
     content:
       - text: "New batch intake happens only after 6 months"
+  # p3:
+  #   heading: "Backed by world-renowned investors"
+  #   content:
+  #     - text: "Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vel porttitor vitae ut. Amet vitae fames senectus vitae."
+  #   links:
+  #     - text: Meet our investors and advisors
+  #       url: "#"
+  #   logos:
+  #     - identifier: a
+  #       image: "images/logo.png"
+  #       alt: "a"
+  #     - identifier: b
+  #     - identifier: c
+  #     - identifier: d
+  #     - identifier: e
+  #     - identifier: f
   p3:
-    heading: "Backed by world-renowned investors"
-    content:
-      - text: "Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vel porttitor vitae ut. Amet vitae fames senectus vitae."
-    links:
-      - text: Meet our investors and advisors
-        url: "#"
-    logos:
-      - identifier: a
-        image: "images/logo.png"
-        alt: "a"
-      - identifier: b
-      - identifier: c
-      - identifier: d
-      - identifier: e
-      - identifier: f
+    heading: "Meet our Mentors"
+    
   #mentors
   mentors:
      - name: "Acho Arnold Ewin"
@@ -128,14 +131,19 @@ params:
 
 menu:
   main:
-    - identifier: apply
-      name: Apply Now
-      url: /apply/
-      weight: 10
     - identifier: about
       name: About
       url: /about/
+      weight: 10
+    - identifier: how it works
+      name: How it Works
+      url: "#how-it-works"
       weight: 20
+    - identifier: apply
+      name: Apply Now
+      url: /apply/
+      weight: 30
+   
     # - identifier: categories
     #   pre: dropdown
     #   name: Categories
@@ -148,7 +156,7 @@ menu:
     - identifier: contact
       name: Contact
       url: /contact/
-      weight: 50
+      weight: 40
   # categories:
   #   - identifier: prose
   #     name: Prose
