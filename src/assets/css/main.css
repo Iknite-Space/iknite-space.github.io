@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+    scroll-behavior: smooth;
+}
+
 font-family: ui-sans-serif,
 system-ui,
 -apple-system,
