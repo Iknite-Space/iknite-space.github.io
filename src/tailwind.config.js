@@ -10,7 +10,7 @@ module.exports = {
       colors: {
         transparent: 'transparent',
         current: 'currentColor',
-        'primary': colors.pink,
+        'primary': colors.blue,
         'secondary': colors.rose,
         'neutral': colors.blue
         // To change these, use https://www.tailwindshades.com/ with https://tailwindcss.com/docs/customizing-colors or create your own custom colors.
