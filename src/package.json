@@ -17,7 +17,7 @@
     "watch:tw": "tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --watch",
     "watch:hugo": "hugo server",
     "build": "tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css  && hugo --minify",
-    "build-drafts": "tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css  && hugo --minify --buildDrafts",
+    "build-drafts": "tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css  && hugo --minify --buildDrafts --baseURL 'https://iknite-space.github.io'",
     "test": "hugo"
   },
   "repository": {
