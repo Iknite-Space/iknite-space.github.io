@@ -119,6 +119,6 @@ jobs:
           server: ftp.iknite.space
           username: ${{ secrets.ftp_username }}
           password: ${{ secrets.ftp_password }}
-          local-dir: ./src/public
+          local-dir: ./src/public/
           dry-run: true
           protocol: ftps
