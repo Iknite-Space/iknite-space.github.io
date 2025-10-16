@@ -113,5 +113,12 @@ jobs:
           name: published-pages
           path: ./src/public
 
-      - name: Use the file
-        run: ls -la ./*
+      - name:  Sync files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.6
+        with:
+          server: ftp.iknite.space
+          username: ${{ secrets.ftp_username }}
+          password: ${{ secrets.ftp_password }}
+          local-dir: ./src/public
+          dry-run: true
+          protocol: ftps
