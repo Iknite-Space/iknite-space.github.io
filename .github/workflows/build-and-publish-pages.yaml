@@ -63,11 +63,11 @@ jobs:
             hugo-
       - name: Configure Git
         run: git config core.quotepath false
-      - name: Build with Hugo
+      - name: Build with Hugo, include drafts
         working-directory: ./src
         run: |
           npm install
-          npm run build
+          npm run build-drafts
       - name: Cache Save
         id: cache-save
         uses: actions/cache/save@v4
@@ -79,9 +79,20 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./src/public
+      - name: Build with Hugo, public only
+        working-directory: ./src
+        run: |
+          rm -rf public
+          npm run build
+      - name: Upload published artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: published-pages
+          path: ./src/public
+          overwrite: true
 
-  # Deployment job
-  deploy:
+  # Deployment Github Pagesjo
+  deploy-gh-pages:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -91,3 +102,15 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  deploy-production:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Download published-pages artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: published-pages
+
+      - name: Use the file
+        run: ls -la published-pages
