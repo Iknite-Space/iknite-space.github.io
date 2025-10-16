@@ -113,4 +113,4 @@ jobs:
           name: published-pages
 
       - name: Use the file
-        run: ls -la published-pages
+        run: ls -la ./*
