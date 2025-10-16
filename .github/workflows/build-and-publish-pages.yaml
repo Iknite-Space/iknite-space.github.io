@@ -117,8 +117,8 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@v4.3.6
         with:
           server: ftp.iknite.space
-          username: ${{ secrets.ftp_username }}
-          password: ${{ secrets.ftp_password }}
+          username: "${{ secrets.ftp_username }}"
+          password: "${{ secrets.ftp_password }}"
           local-dir: ./src/public/
           dry-run: true
           protocol: ftp
