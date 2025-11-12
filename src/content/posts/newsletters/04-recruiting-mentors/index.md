@@ -1,10 +1,10 @@
 +++
 date = '2025-08-20T21:37:45+01:00'
 draft = true
-title = 'The Journey - Part 3'
+title = 'A call for mentors'
 language =  "en"
 featured_image = "images/03-newsletter-the-journey.jpg"
-summary = ""
+summary = "Iknite Space is recruting mentors for cohort 5!"
 description = ""
 authorimage = "../assets/images/global/author.webp"
 categories = ["blog"]
