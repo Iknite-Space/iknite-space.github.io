@@ -9,6 +9,7 @@ description = ""
 authorimage = "../assets/images/global/author.webp"
 categories = ["blog"]
 tags = "newsletter"
++++
 
 ## Introduction
 Cohort 5 Starts Tomorrow! A New Chapter Begins at Iknite Space Tomorrow marks another exciting beginning at Iknite Space, It marks the official start of Cohort 5 of our training program!
