@@ -39,4 +39,4 @@ Some Mentor Responsibilities Include:
 Looking Ahead This program has grown stronger with every edition because of the people behind it, mentors, partners, and friends who believe in the power of shared growth. We can’t wait to see what we’ll buildtogether next.
 
 ## Page 5
-Want to Mentor or Collaborate? If you’d love to be part of this journey, as a mentor, supporter, or partner, we’d be thrilled to connect with you. Reply to this email or visit iknite.space to learn more.+++
+Want to Mentor or Collaborate? If you’d love to be part of this journey, as a mentor, supporter, or partner, we’d be thrilled to connect with you. Send us an email at infor@iknite.space.
