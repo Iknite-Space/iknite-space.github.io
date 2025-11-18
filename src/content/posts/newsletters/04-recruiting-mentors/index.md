@@ -20,9 +20,9 @@ For all you do, have done and will do, we say thank you.
 # The Journey to Cohort 5
 The past few months have been full of activities. Some of which included;
 
-    * Application Review
-    * Trainee Interview
-    * And final Selection
+* Application Review
+* Trainee Interview
+* And final Selection
     Onboarding Sessions
 
 
@@ -41,9 +41,9 @@ This time around, because we understand what much favor you do for us as a mento
 
 Some Mentor Responsibilities Include:
 
-    * Provide guidance and feedback to trainees throughout the six-month program.
-    * Share insights on real-world challenges and how to approach them.
-    * Join bi-weekly check-ins to monitor progress, review deliverables, and answer questions.
+* Provide guidance and feedback to trainees throughout the six-month program.
+* Share insights on real-world challenges and how to approach them.
+* Join bi-weekly check-ins to monitor progress, review deliverables, and answer questions.
 
 # Looking Ahead
 This program has grown stronger with every edition because of the people behind it, mentors, partners, and friends who believe in the power of shared growth.
