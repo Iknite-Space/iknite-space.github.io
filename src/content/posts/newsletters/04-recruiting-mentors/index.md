@@ -1,6 +1,6 @@
 +++
 date = '2025-08-20T21:37:45+01:00'
-draft = true
+draft = false
 title = 'Cohort 5 Starts Tomorrow! A New Chapter Begins!'
 language =  "en"
 featured_image = "images/newsletter-c5-work-session.jpg"
