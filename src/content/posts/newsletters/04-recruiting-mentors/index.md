@@ -1,5 +1,5 @@
 +++
-date = '2025-08-20T21:37:45+01:00'
+date = '2025-11-14T21:37:45+01:00'
 draft = false
 title = 'Welcome to Iknite Space Cohort 5'
 language =  "en"
