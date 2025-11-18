@@ -11,7 +11,6 @@ categories = ["blog"]
 tags = "newsletter"
 +++
 
-# Cohort 5 Starts Tomorrow! A New Chapter Begins!
 Tomorrow marks another exciting beginning at Iknite Space, It marks the official start of Cohort 5 of our training program!
 And we are more than excited for this. Not just for the training but for Mentors, partners and supporters like you.
 
