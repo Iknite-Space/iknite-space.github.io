@@ -11,10 +11,10 @@ categories = ["blog"]
 tags = "newsletter"
 +++
 
-Tomorrow marks another exciting beginning at Iknite Space, It marks the official start of Cohort 5 of our training program!
-And we are more than excited for this. Not just for the training but for Mentors, partners and supporters like you.
 
-For all you do, have done and will do, we say thank you.
+Iknite Space Cohort 5 has begun and we are beyond excited for this new journey.
+Our excitement goes beyond the training. it’s for the mentors, partners, and supporters like you who make this program possible.
+For all you do, have done, and will continue to do, we say thank you.
  
 # The Journey to Cohort 5
 The past few months have been full of activities. Some of which included;
