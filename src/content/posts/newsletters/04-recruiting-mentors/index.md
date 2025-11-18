@@ -53,5 +53,5 @@ We can’t wait to see what we’ll build together next.
 # Want to Mentor or Collaborate?
 If you’d love to be part of this journey, as a mentor, supporter, or partner, we’d be thrilled to connect with you.
 
-Send us an email to contact@iknite.studio
+Send us an email to info@iknite.studio
 
