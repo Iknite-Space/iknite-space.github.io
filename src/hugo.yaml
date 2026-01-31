@@ -1,5 +1,5 @@
-baseURL: 'https://ndonghenry.com'
-title: "Ndong Henry"
+baseURL: 'https://iknite.space'
+title: "Iknite Space"
 languageCode: en-us
 theme: 'github.com/nusserstudios/tailbliss/themes/tailbliss'
 DefaultContentLanguage: en
@@ -18,16 +18,15 @@ params:
   author: Nusser Studios
   authorimage: ../assets/images/global/author.webp
   og_image: /images/tailbliss-cover.png
-  moto: "Software Engineer and Data Scientist"
-  description: "I design custom software and data solutions that help businesses grow and scale with confidence."
+  moto: "Kickstart your software dev career"
+  description: "Get intensive practical training in software development for free until you get a job"
   disable_theme_toggle: false
   disable_stay_uptodate: true
   homepageImage: "images/hero.png"
   howitworksImage: "/images/isocons.png"
-  logo: "Ndong/H"
 
   p1:
-    heading: "About Me"
+    heading: "How it Works"
     image: "images/pages/home-2.png"
     content:
       # - text: "Five straightforward steps to achieve your goal. Your future employer handles your tuition fees"
@@ -42,7 +41,7 @@ params:
       - text: "New batch intake happens only after 6 months"
 
   p3:
-    heading: "Select works and impact"
+    heading: "Meet our Mentors"
     
   #mentors
   mentors:
@@ -90,7 +89,7 @@ params:
   p4:
     heading: "From the blog"
     content:
-      - text: "Checkout my latest blog posts!"
+      - text: "Checkout our latest blog posts!"
   p5:
     heading: "Stay Up to Date"
     content:

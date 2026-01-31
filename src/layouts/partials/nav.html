@@ -6,11 +6,10 @@
                 {{ if $logo }}
                     {{ $scaledLogo := $logo.Resize "x56" }}
                     <img src="{{ $scaledLogo.RelPermalink }}" class="transition-opacity group-hover:opacity-50 group-focus:opacity-70" alt="{{ .Site.Title }} Logo" />
-                {{ else }}
-                    <div class="mt-1 ml-3 text-2xl sm:text-3xl md:text-4xl font-black tracking-tight text-gray-100 uppercase transition-colors group-hover:text-gray-400/60">
-                        {{ .Site.Params.logo }}
-                    </div>
                 {{ end }}
+                <!-- <div class="mt-1 ml-3 text-xl font-black tracking-tight text-gray-100 uppercase transition-colors group-hover:text-gray-400/60">
+                    {{ .Site.Title }}
+                </div> -->
             </a>
             <!-- <a href="/" class="flex text-gray-100 transition duration-1000 ease-in-out group">
                 <img src="images/logo.png" class="transition-opacity h-6 w-6 group-hover:opacity-50 group-focus:opacity-70" alt="{{ .Site.Title }} Logo" />
